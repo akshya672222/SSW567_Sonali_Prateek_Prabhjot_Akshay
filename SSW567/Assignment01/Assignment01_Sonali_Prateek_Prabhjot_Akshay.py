@@ -38,7 +38,7 @@ class checkTriangleTests ( unittest.TestCase ):
 
     def testFive(self):
         self.assertNotEqual ( classifyTriangle ( 5 , 8 , 9 ) , "Equilateral" )
-        # fail unless :- assertNotEquals
+        # fail if :- assertNotEquals
 
     def testSix(self):
         self.assertEqual ( classifyTriangle ( 5 , 8 , 9 ) , "Scalene" )
